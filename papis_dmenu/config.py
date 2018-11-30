@@ -4,12 +4,6 @@ dmenu gui
 
 See `dmenu <https://tools.suckless.org/dmenu/>`_ and the python wrapper
 `here <http://dmenu.readthedocs.io/en/latest/>`_ for more information.
-You will need to install the latter to make use of this function,
-
-::
-
-    pip3 install dmenu
-
 
 .. papis-config:: lines
     :section: dmenu-gui
