@@ -1,4 +1,4 @@
-Papis-Dmenu |Pypi|
+Papis-dmenu |Pypi|
 ==========
 
 This is a script that implements a GUI using the great `dmenu <https://tools.suckless.org/dmenu/>`_
