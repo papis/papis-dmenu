@@ -1,7 +1,7 @@
 Papis-Dmenu |Pypi|
 ==========
 
-This is a script that implements a GUI using the great `Dmenu <>`_
+This is a script that implements a GUI using the great `dmenu <https://tools.suckless.org/dmenu/>`_
 
 Usage
 -----
