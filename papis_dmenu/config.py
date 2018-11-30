@@ -35,6 +35,12 @@ See `dmenu <https://tools.suckless.org/dmenu/>`_ and the python wrapper
     This is not set per default, and it will default to
     the general header-format if not set.
 
+.. papis-config:: editor
+    :section: dmenu-gui
+
+    Editor used for editing info files, you should probably use a
+    non-terminal based editor, i.e., ``gvim``, ``gedit`` etc..
+
 
 """
 
@@ -51,6 +57,7 @@ configuration_settings = {
         "background_selected": '#005500',
         "foreground_selected": '#f0f0f0',
         "header-format": '{doc[year]:<4.4}| {doc[title]:<80.80}|:| {doc[author]}',
+        "editor": "gedit",
     }
 }
 

@@ -25,6 +25,7 @@ def main(query, i, prompt):
     """A dmenu based GUI for papis"""
     papis_dmenu.config.register_default_settings()
     papis.config.set_external_picker(papis_dmenu.pick)
+    papis.config.set('editor', papis.config.get('editor', section='dmenu-gui'))
     if i:
         query = papis_dmenu.input(prompt=prompt)
     if query is not None:
