@@ -31,5 +31,5 @@ or
    :target: https://www.python.org
 .. |Pypi| image:: https://badge.fury.io/py/papis-dmenu.svg
    :target: https://badge.fury.io/py/papis-dmenu
-.. |RTD| image:: https://readthedocs.org/projects/papis/badge/?version=latest
-   :target: http://papis.readthedocs.io/en/latest/?badge=latest
+.. |RTD| image:: https://readthedocs.org/projects/papis-dmenu/badge/?version=latest
+   :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
