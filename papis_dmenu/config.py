@@ -56,10 +56,12 @@ configuration_settings = {
         "foreground": '#55ff55',
         "background_selected": '#005500',
         "foreground_selected": '#f0f0f0',
-        "header-format": '{doc[year]:<4.4}| {doc[title]:<80.80}|:| {doc[author]}',
+        "header-format":
+            '{doc[year]:<4.4}| {doc[title]:<80.80}|:| {doc[author]}',
         "editor": "gedit",
     }
 }
+
 
 def register_default_settings():
     papis.config.register_default_settings(configuration_settings)

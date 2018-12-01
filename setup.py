@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
-import papis_dmenu
+from papis_dmenu import __version__
 
 with open('README.rst') as fd:
     long_description = fd.read()
 
 setup(
     name='papis-dmenu',
-    version=papis_dmenu.__version__,
+    version=__version__,
     author='Alejandro Gallo',
     author_email='aamsgallo@gmail.com',
     license='GPLv3',

@@ -1,5 +1,3 @@
-import sys
-
 import dmenu
 import papis.api
 import papis.utils
@@ -32,6 +30,7 @@ _dmenu_pick = functools.partial(
 
 def pick(options, header_filter=None, body_filter=None, match_filter=None):
     fmt = papis.config.get('header-format', section='dmenu-gui')
+
     def header_filter(x):
         return papis.utils.format_doc(fmt, x)
     if len(options) == 1:
