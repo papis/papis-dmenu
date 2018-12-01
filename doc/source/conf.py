@@ -108,6 +108,8 @@ class PapisConfig(Directive):
     add_index = True
     def run(self):
         import papis.config
+        import papis_dmenu.config
+        papis_dmenu.config.register_default_settings()
         key = self.arguments[0]
         section = self.options.get(
             'section',
