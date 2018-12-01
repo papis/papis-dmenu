@@ -34,6 +34,15 @@ setup(
     ],
     description='dmenu based inerface for papis',
     long_description=long_description,
+    extras_require=dict(
+        develop=[
+            "sphinx",
+            'sphinx-click',
+            'sphinx_rtd_theme',
+            'pytest',
+            'pytest-cov',
+        ]
+    ),
     keywords=[
         'papis', 'dmenu', 'bibtex',
         'management', 'cli', 'biliography'
