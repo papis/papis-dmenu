@@ -1,11 +1,6 @@
 import sys
 
-try:
-    import dmenu
-except:
-    print('You don\'t have dmenu for python, try pip3 install dmenu')
-    sys.exit(1)
-
+import dmenu
 import papis.api
 import papis.utils
 import functools
