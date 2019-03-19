@@ -2,6 +2,7 @@ import sys
 import papis.cli
 import papis.config
 from papis.commands.default import run as papis_main
+import papis.pick
 
 import papis_dmenu
 import papis_dmenu.dmenu
@@ -22,10 +23,11 @@ import click
 def main(query, i, prompt):
     """A dmenu based GUI for papis"""
     papis_dmenu.config.register_default_settings()
-    papis.config.set_external_picker(papis_dmenu.pick)
+    papis.pick.register_picker('papis_dmenu', papis_dmenu.Picker)
+    papis.config.set('picktool', 'papis_dmenu')
     papis.config.set('editor', papis.config.get('editor', section='dmenu-gui'))
     if i:
-        query = papis_dmenu.dmenu.input(prompt=prompt)
+        query = papis_dmenu.input(prompt=prompt)
     if query is not None:
         sys.argv.append(query)
     indices_to_erase = []

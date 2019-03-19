@@ -57,7 +57,7 @@ configuration_settings = {
         "background_selected": '#005500',
         "foreground_selected": '#f0f0f0',
         "header-format":
-            '{doc[year]:<4.4}| {doc[title]:<80.80}|:| {doc[author]}',
+            '{doc[year]:<4}| {doc[title]:<80.80}|:| {doc[author]}',
         "editor": "gedit",
     }
 }

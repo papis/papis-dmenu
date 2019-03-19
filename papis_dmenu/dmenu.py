@@ -1,6 +1,6 @@
 import dmenu
-import papis.api
 import papis.utils
+import papis.pick
 import functools
 import papis_dmenu.config
 
@@ -28,20 +28,34 @@ _dmenu_pick = functools.partial(
 )
 
 
-def pick(options, header_filter=None, body_filter=None, match_filter=None):
-    fmt = papis.config.get('header-format', section='dmenu-gui')
+class Picker(papis.pick.Picker):
 
-    def header_filter(x):
-        return papis.utils.format_doc(fmt, x)
-    if len(options) == 1:
-        index = 0
-    else:
-        headers = [header_filter(o) for o in options]
-        header = _dmenu_pick(headers)
-        if not header:
-            return None
-        index = headers.index(header)
-    return options[index]
+    def __init__(
+            self, options, header_filter=None, match_filter=None, **kwargs
+            ):
+
+        self.fmt = papis.config.get('header-format', section='dmenu-gui')
+        print('asdf')
+        print(self.fmt)
+        papis.pick.Picker.__init__(
+            self,
+            options
+        )
+        self.header_filter = lambda x: papis.utils.format_doc(self.fmt, x)
+
+    def __call__(self):
+
+        if len(self.options) == 1:
+            index = 0
+        else:
+            print(self.header_filter(self.options[0]))
+            headers = [self.header_filter(o) for o in self.options]
+            print(headers)
+            header = _dmenu_pick(headers)
+            if not header:
+                return None
+            index = headers.index(header)
+        return self.options[index]
 
 
 def input(prompt=''):
