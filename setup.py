@@ -51,8 +51,8 @@ setup(
         "papis_dmenu",
     ],
     entry_points={
-        'console_scripts': [
-            'papis-dmenu=papis_dmenu.main:main'
+        'papis.command': [
+            'dmenu=papis_dmenu.main:main'
         ],
         'papis.picker': [
             'dmenu=papis_dmenu.dmenu:pick'
