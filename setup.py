@@ -14,7 +14,7 @@ setup(
     license='GPLv3',
     url='https://github.com/papis/papis-dmenu',
     install_requires=[
-        "papis>=0.7.5",
+        "papis>=0.8.2",
         "dmenu",
     ],
     classifiers=[

@@ -1,6 +1,8 @@
-import dmenu
-import papis.utils
 import functools
+import dmenu
+
+import papis.utils
+import papis.config
 import papis_dmenu.config
 
 
@@ -37,6 +39,8 @@ def pick(options, header_filter=None, match_filter=None, **kwargs):
 
     if len(options) == 1:
         index = 0
+    elif len(options) == 0:
+        return ''
     else:
         headers = [header_filter(o) for o in options]
         header = _dmenu_pick(headers)
