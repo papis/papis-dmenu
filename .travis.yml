@@ -11,6 +11,8 @@ script:
 install:
 - pip install setuptools
 - pip install python-coveralls
+- pip install pytest
+- pip install pytest-cov==2.5.0
 - pip install -e .
 after_success:
 - coveralls
