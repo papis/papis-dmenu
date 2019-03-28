@@ -48,7 +48,7 @@ import papis.config
 
 configuration_settings = {
     "dmenu-gui": {
-        "lines": 30,
+        "lines": 10,
         "case_insensitive": True,
         "bottom": True,
         "font": 'monospace-14',

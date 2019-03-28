@@ -50,10 +50,13 @@ setup(
     packages=[
         "papis_dmenu",
     ],
-    entry_points=dict(
-        console_scripts=[
+    entry_points={
+        'console_scripts': [
             'papis-dmenu=papis_dmenu.main:main'
+        ],
+        'papis.picker': [
+            'dmenu=papis_dmenu.dmenu:pick'
         ]
-    ),
+    },
     platforms=['linux', 'osx'],
 )
