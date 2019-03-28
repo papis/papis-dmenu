@@ -28,8 +28,8 @@ or
 
   sudo pip3 install papis-dmenu
 
-.. |TRAVIS| image:: https://travis-ci.org/alejandrogallo/repo_name.svg?branch=master
-   :target: https://travis-ci.org/alejandrogallo/repo_name
+.. |TRAVIS| image:: https://travis-ci.org/papis/papis-dmenu.svg?branch=master
+   :target: https://travis-ci.org/papis/papis-dmenu
 .. |Python| image:: https://img.shields.io/badge/Python-3%2B-blue.svg
    :target: https://www.python.org
 .. |Pypi| image:: https://badge.fury.io/py/papis-dmenu.svg
