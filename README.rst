@@ -1,5 +1,6 @@
-Papis-dmenu |Pypi| |RTD| |Python|
-==========
+Papis-dmenu |Pypi| |RTD| |Python| |TRAVIS|
+===========
+
 
 This is a script that implements a GUI using the great `dmenu <https://tools.suckless.org/dmenu/>`_
 
@@ -27,6 +28,8 @@ or
 
   sudo pip3 install papis-dmenu
 
+.. |TRAVIS| image:: https://travis-ci.org/alejandrogallo/repo_name.svg?branch=master
+   :target: https://travis-ci.org/alejandrogallo/repo_name
 .. |Python| image:: https://img.shields.io/badge/Python-3%2B-blue.svg
    :target: https://www.python.org
 .. |Pypi| image:: https://badge.fury.io/py/papis-dmenu.svg
