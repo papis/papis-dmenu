@@ -3,16 +3,21 @@ Papis-dmenu
 |Pypi| |RTD| |Python| |TRAVIS|
 
 
-This is a script that implements a GUI using the great `dmenu <https://tools.suckless.org/dmenu/>`_
+This project implements a picker based on
+`dmenu <https://tools.suckless.org/dmenu/>`_
+for papis.
 
 Usage
 -----
 
-Just hit
+Just use it as a
+`picktool <
+https://papis.readthedocs.io/en/latest/configuration.html#config-settings-picktool
+>`_
 
 ::
 
-  papis dmenu
+  papis --set picktool dmenu open
 
 Installation
 ------------
