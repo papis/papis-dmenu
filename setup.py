@@ -51,9 +51,6 @@ setup(
         "papis_dmenu",
     ],
     entry_points={
-        'papis.command': [
-            'dmenu=papis_dmenu.main:main'
-        ],
         'papis.picker': [
             'dmenu=papis_dmenu.dmenu:pick'
         ]

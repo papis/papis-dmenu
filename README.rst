@@ -1,5 +1,6 @@
-Papis-dmenu |Pypi| |RTD| |Python| |TRAVIS|
+Papis-dmenu
 ===========
+|Pypi| |RTD| |Python| |TRAVIS|
 
 
 This is a script that implements a GUI using the great `dmenu <https://tools.suckless.org/dmenu/>`_
