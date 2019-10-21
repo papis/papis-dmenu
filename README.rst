@@ -1,5 +1,6 @@
 Papis-dmenu
 ===========
+
 |Pypi| |RTD| |Python| |TRAVIS|
 
 
@@ -11,9 +12,7 @@ Usage
 -----
 
 Just use it as a
-`picktool <
-https://papis.readthedocs.io/en/latest/configuration.html#config-settings-picktool
->`_
+`picktool <https://papis.readthedocs.io/en/latest/configuration.html#config-settings-picktool>`_
 
 ::
 
@@ -33,6 +32,7 @@ or
 ::
 
   sudo pip3 install papis-dmenu
+
 
 .. |TRAVIS| image:: https://travis-ci.org/papis/papis-dmenu.svg?branch=master
    :target: https://travis-ci.org/papis/papis-dmenu
