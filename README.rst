@@ -3,6 +3,11 @@ Papis-dmenu
 
 |Pypi| |RTD| |Python| |TRAVIS|
 
+::
+
+    If you use this plugin and you would like to
+    MAINTAIN it, send us an email, we're looking for an active maintainer.
+
 
 This project implements a picker based on
 `dmenu <https://tools.suckless.org/dmenu/>`_
@@ -32,6 +37,12 @@ or
 ::
 
   sudo pip3 install papis-dmenu
+
+TODO
+----
+- [ ] Gradually type the project
+- [ ] Implement some more tests
+- [ ] Document a bit
 
 
 .. |TRAVIS| image:: https://travis-ci.org/papis/papis-dmenu.svg?branch=master

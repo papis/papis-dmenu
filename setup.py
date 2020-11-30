@@ -14,7 +14,7 @@ setup(
     license='GPLv3',
     url='https://github.com/papis/papis-dmenu',
     install_requires=[
-        "papis>=0.9",
+        "papis>=0.11",
         "dmenu",
     ],
     classifiers=[
@@ -52,7 +52,7 @@ setup(
     ],
     entry_points={
         'papis.picker': [
-            'dmenu=papis_dmenu.dmenu:pick'
+            'dmenu=papis_dmenu.dmenu:Picker'
         ]
     },
     platforms=['linux', 'osx'],
