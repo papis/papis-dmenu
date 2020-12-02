@@ -52,3 +52,4 @@ TODO
 .. |RTD| image:: https://readthedocs.org/projects/papis-dmenu/badge/?version=latest
    :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
 .. |gifimage| image:: https://papis.github.io/images/papis-dmenu.gif
+   :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
