@@ -3,10 +3,8 @@ Papis-dmenu
 
 |Pypi| |RTD| |Python| |TRAVIS|
 
-::
 
-    If you use this plugin and you would like to
-    MAINTAIN it, send us an email, we're looking for an active maintainer.
+|GIF|
 
 
 This project implements a picker based on
@@ -53,3 +51,4 @@ TODO
    :target: https://badge.fury.io/py/papis-dmenu
 .. |RTD| image:: https://readthedocs.org/projects/papis-dmenu/badge/?version=latest
    :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
+.. |GIF| image:: https://papis.github.io/images/papis-dmenu.gif
