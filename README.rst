@@ -53,5 +53,5 @@ TODO
    :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
 .. |gifimage| image:: https://papis.github.io/images/papis-dmenu.gif
    :target: http://papis-dmenu.readthedocs.io/en/latest/?badge=latest
-.. |ghbadge| image:: https://github.com/papis/papis-dmenu/workflows/main/badge.svg
+.. |ghbadge| image:: https://github.com/papis/papis-dmenu/workflows/CI/badge.svg
 

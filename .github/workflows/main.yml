@@ -1,4 +1,4 @@
-name: papis-dmenu
+name: CI
 
 on: [push]
 
